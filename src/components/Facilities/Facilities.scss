@@ -1,0 +1,55 @@
+.app__services {
+  background: var(--primary-color);
+  padding: 10px 100px;
+  height: 100vh;
+
+  .app__services-head {
+    font-family: var(--font-base);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--darkgreen-color);
+  }
+
+  .app__service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+    .app__service_card {
+      width: 500px;
+      height: 200px;
+      padding: 10px;
+      text-align: justify;
+      background-color: var(--green-color);
+      color: var(--primary-color);
+      font-size: 16px;
+      font-weight: 400;
+      font-family: var(--font-base);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin: 1.5rem 0;
+
+      .app__service_card-title {
+        top: 10px;
+        text-transform: uppercase;
+        color: var(--primary-color);
+        letter-spacing: 5px;
+        font-weight: 400;
+      }
+
+      .app__service_card-desc {
+        text-align: justify;
+        margin: 2rem 1rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
